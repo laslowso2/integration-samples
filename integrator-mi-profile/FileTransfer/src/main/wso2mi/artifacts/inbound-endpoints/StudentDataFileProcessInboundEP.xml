@@ -13,13 +13,13 @@
         <parameter name="transport.vfs.MoveFailedRecordTimestampFormat">dd-MM-yyyy HH:mm:ss</parameter>
         <parameter name="transport.vfs.FailedRecordNextRetryDuration">3000</parameter>
         <parameter name="transport.vfs.ActionAfterProcess">MOVE</parameter>
-        <parameter name="transport.vfs.FileURI">file:///home/user/in</parameter>
-        <parameter name="transport.vfs.MoveAfterFailure">file:///home/user/error</parameter>
+        <parameter name="transport.vfs.FileURI">file:///home/student/in</parameter>
+        <parameter name="transport.vfs.MoveAfterFailure">file:///home/student/error</parameter>
         <parameter name="transport.vfs.ReplyFileName">response.xml</parameter>
         <parameter name="transport.vfs.MoveTimestampFormat">yyyy.MMMMM.dd hh.mm.ss aaa </parameter>
         <parameter name="transport.vfs.DistributedLock">false</parameter>
         <parameter name="transport.vfs.FileNamePattern">.*\.csv</parameter>
-        <parameter name="transport.vfs.MoveAfterProcess">file:///home/user/out</parameter>
+        <parameter name="transport.vfs.MoveAfterProcess">file:///home/student/out</parameter>
         <parameter name="transport.vfs.Locking">disable</parameter>
         <parameter name="transport.vfs.SFTPUserDirIsRoot">false</parameter>
         <parameter name="transport.vfs.FileSortAttribute">none</parameter>

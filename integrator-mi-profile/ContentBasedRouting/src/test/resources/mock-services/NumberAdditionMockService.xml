@@ -1,0 +1,18 @@
+<mock-service>
+    <service-name>NumberAdditionMock</service-name>
+    <port>9292</port>
+    <context>/</context>
+    <resources>
+        <resource>
+            <sub-context>/</sub-context>
+            <method>POST</method>
+            <response>
+                <status-code>200</status-code>
+                <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><AddIntegerResponse xmlns="http://tempuri.org"><AddIntegerResult>35</AddIntegerResult></AddIntegerResponse></soapenv:Body></soapenv:Envelope>]]></payload>
+                <headers>
+                    <header name="Content-Type" value="text/xml;charset=UTF-8"/>
+                </headers>
+            </response>
+        </resource>
+    </resources>
+</mock-service>

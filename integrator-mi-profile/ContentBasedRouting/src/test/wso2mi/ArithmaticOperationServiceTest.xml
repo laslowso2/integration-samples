@@ -60,5 +60,8 @@
       </assertions>
     </test-case>
   </test-cases>
-  <mock-services></mock-services>
+  <mock-services>
+    <mock-service>src/test/resources/mock-services/NumberAdditionMockService.xml</mock-service>
+    <mock-service>src/test/resources/mock-services/NumberDivisionMockService.xml</mock-service>
+  </mock-services>
 </unit-test>

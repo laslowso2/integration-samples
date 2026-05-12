@@ -1,0 +1,18 @@
+<mock-service>
+    <service-name>NumberDivisionMock</service-name>
+    <port>9393</port>
+    <context>/</context>
+    <resources>
+        <resource>
+            <sub-context>/</sub-context>
+            <method>POST</method>
+            <response>
+                <status-code>200</status-code>
+                <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><DivideIntegerResponse xmlns="http://tempuri.org"><DivideIntegerResult>5</DivideIntegerResult></DivideIntegerResponse></soapenv:Body></soapenv:Envelope>]]></payload>
+                <headers>
+                    <header name="Content-Type" value="text/xml;charset=UTF-8"/>
+                </headers>
+            </response>
+        </resource>
+    </resources>
+</mock-service>

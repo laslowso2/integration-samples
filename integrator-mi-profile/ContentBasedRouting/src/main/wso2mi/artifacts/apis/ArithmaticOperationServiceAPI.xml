@@ -14,6 +14,7 @@
                         </format>
                     </payloadFactory>
                     <header description="Set SOAPAction header" name="Action" scope="default" value="http://tempuri.org/SOAP.Demo.AddInteger"/>
+                    <property name="DISABLE_CHUNKING" value="true" scope="axis2"/>
                     <call description="Send request to the endpoint">
                         <endpoint key="NumberAdditionEP"/>
                     </call>
@@ -28,6 +29,7 @@
                         </format>
                     </payloadFactory>
                     <header description="Set SOAPAction header" name="Action" scope="default" value="http://tempuri.org/SOAP.Demo.DivideInteger"/>
+                    <property name="DISABLE_CHUNKING" value="true" scope="axis2"/>
                     <call>
                         <endpoint key="NumberDivisionEP"/>
                     </call>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <endpoint name="NumberDivisionEP" xmlns="http://ws.apache.org/ns/synapse">
-    <address format="soap11" uri="http://www.crcind.com/csp/samples/SOAP.Demo.cls">
+    <address format="soap11" uri="http://localhost:9393/">
         <suspendOnFailure>
             <initialDuration>-1</initialDuration>
             <progressionFactor>1</progressionFactor>
